@@ -180,7 +180,7 @@ class _FlutterTaggingState<T extends Taggable>
 
   @override
   void dispose() {
-    _textController.dispose();
+    //_textController.dispose();
     // _focusNode.dispose();
     super.dispose();
   }
